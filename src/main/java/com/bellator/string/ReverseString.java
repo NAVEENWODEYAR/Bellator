@@ -24,7 +24,8 @@ public class ReverseString
 	// 3. Using Java8,
 	static void stringReverseJava8(String st)
 	{
-		
+		String string = new StringBuilder(st).reverse().toString();
+		System.out.println("\nOriginal string:"+st+"\nReversed striing:"+string);
 	}
 	
 	public static void main(String[] args) 
@@ -34,6 +35,8 @@ public class ReverseString
 		reverseString("Gradle");
 		System.out.println("\n2. Using StringBuilder");
 		strReverse("String");
+		System.out.println("\n3. Using StringBuilder");
+		stringReverseJava8("Java8");
 	}
 
 }
