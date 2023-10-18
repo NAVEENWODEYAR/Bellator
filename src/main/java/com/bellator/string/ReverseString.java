@@ -21,6 +21,12 @@ public class ReverseString
 		System.out.println("\n Original string given:"+st+"\n Reversed string:"+sb.reverse());	
 	}
 	
+	// 3. Using Java8,
+	static void stringReverseJava8(String st)
+	{
+		
+	}
+	
 	public static void main(String[] args) 
 	{
 		System.out.println("\nProgram to reverse a string in Java\n");
