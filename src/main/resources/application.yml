@@ -1,3 +1,5 @@
+# Development environment configurations.,
 
-server:
-  port: 6553
+spring:
+  profiles:
+    active: dev
