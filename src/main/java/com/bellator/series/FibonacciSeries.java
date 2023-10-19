@@ -11,7 +11,7 @@ public class FibonacciSeries
 		
 		for(int i=0; i<n; i++)
 		{
-			System.out.println(a+",");
+			System.out.print(a+",");
 			a=b;
 			b=c;
 			c=a+b;
@@ -31,7 +31,12 @@ public class FibonacciSeries
 		System.out.println("\n******Fibonacci Series**********\n");
 		fiboNacciSeries(5);
 		System.out.println("********");
-		fiboNacciUsingRecursion(50);
+		int n = 10;
+		for(int i=0; i<n; i++)
+		{
+			System.out.print(fiboNacciUsingRecursion(i));
+		}
+		
 	}
 
 }
