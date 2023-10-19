@@ -13,6 +13,14 @@ public class PrimeNumber
 		{
 			System.out.println("");
 		}
+		for(int i=2; i<n/2; i++ )
+		{
+			if(i/2 == 0)
+			{
+				System.out.println("\n ");
+			}
+		}
+		
 		
 	}
 	public static void main(String[] args) 
