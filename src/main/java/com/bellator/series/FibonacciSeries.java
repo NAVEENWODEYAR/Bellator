@@ -28,7 +28,7 @@ public class FibonacciSeries
 	
 	public static void main(String[] args) 
 	{
-		System.out.println("\n******Fibonacci Series**********\n");
+		System.out.println("\n******Fibonacci Series**********");
 		fiboNacciSeries(5);
 		System.out.println("********");
 		int n = 10;
