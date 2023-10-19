@@ -4,7 +4,7 @@ public class PrimeNumber
 {
 	static void primeNumber(int n)
 	{
-		System.out.println("\na prime number is a number that cannot be evenly divided by any other number except 1 and itself");
+		System.out.println("\n Prime number is a number that cannot be evenly divided by any other number except 1 and itself");
 		if(n==1 || n ==0)
 		{
 			System.out.println("");
