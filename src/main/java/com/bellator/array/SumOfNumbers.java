@@ -1,6 +1,8 @@
 package com.bellator.array;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.stream.DoubleStream;
 
 public class SumOfNumbers 
 {
@@ -18,10 +20,19 @@ public class SumOfNumbers
 		System.out.println("\n Sum of the integers in the given array:"+sum);
 		return sum;
 	}
+	
+	// using stream API.,
+	static void sumOfElements(Integer[] arr)
+	{
+		ArrayList<Integer> list = new ArrayList<>(Arrays.asList(arr));
+							DoubleStream mapToDouble = list.parallelStream().mapToDouble(Integer::intValue);
+							System.out.println(mapToDouble);
+	}
 	public static void main(String[] args) 
 	{
 		int[] num = {1,2,3,4,5};
-		sumOfArray(num);
+//		sumOfArray(num);
+		sumOfElements(new Integer[] {1,2,3,4,5});
 	}
 
 }
