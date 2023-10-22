@@ -2,6 +2,7 @@ package com.bellator.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.DoubleSummaryStatistics;
 import java.util.stream.DoubleStream;
 
 public class SumOfNumbers 
@@ -25,8 +26,9 @@ public class SumOfNumbers
 	static void sumOfElements(Integer[] arr)
 	{
 		ArrayList<Integer> list = new ArrayList<>(Arrays.asList(arr));
-							DoubleStream mapToDouble = list.parallelStream().mapToDouble(Integer::intValue);
-							System.out.println(mapToDouble);
+							DoubleSummaryStatistics mapToDouble = list.parallelStream().mapToDouble(Integer::intValue).summaryStatistics();
+							System.out.println(mapToDouble.getMax());
+							System.out.println(mapToDouble.getSum());
 	}
 	public static void main(String[] args) 
 	{
