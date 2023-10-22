@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class SumOfNumbers 
 {
+	
+	// sum of elements in the array.,
 	static int sumOfArray(int[] num)
 	{
 		int sum = 0;
