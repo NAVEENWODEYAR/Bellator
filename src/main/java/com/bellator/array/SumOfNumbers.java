@@ -30,6 +30,8 @@ public class SumOfNumbers
 							System.out.println(mapToDouble.getMax());
 							System.out.println(mapToDouble.getSum());
 	}
+	
+	
 	public static void main(String[] args) 
 	{
 		int[] num = {1,2,3,4,5};
