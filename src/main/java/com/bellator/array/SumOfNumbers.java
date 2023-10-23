@@ -1,13 +1,11 @@
 package com.bellator.array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.DoubleSummaryStatistics;
 import java.util.stream.DoubleStream;
 
 public class SumOfNumbers 
 {
-	
 	// sum of elements in the array.,
 	static int sumOfArray(int[] num)
 	{
