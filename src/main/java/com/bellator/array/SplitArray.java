@@ -8,7 +8,7 @@ public class SplitArray
 	{
 		System.out.println("\nOriginal size of the array:"+arr.length);
 		int[] subArray1 = Arrays.copyOfRange(arr, 0, 3);
-		int[] subArray2 = Arrays.copyOfRange(arr, 3, 6);
+		int[] subArray2 = Arrays.copyOfRange(arr, 3, 7);
 		System.out.println("\1. Original Array:"+Arrays.toString(arr));
 		System.out.println("\2. Original Array:"+Arrays.toString(subArray1));
 		System.out.println("\3. Original Array:"+Arrays.toString(subArray2));
