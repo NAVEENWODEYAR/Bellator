@@ -1,4 +1,4 @@
-# PROD - Environment,
+# DEV - Environment - developers will use for integration testing,
 
 server:
   port: 65534
