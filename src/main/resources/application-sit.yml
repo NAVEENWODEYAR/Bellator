@@ -1,4 +1,4 @@
-# PROD - Environment,
+# SIT - Testing team will use for system integration testing,
 
 server:
   port: 65534
