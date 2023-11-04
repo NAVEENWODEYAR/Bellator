@@ -1,4 +1,4 @@
-# PROD - Environment,
+# UAT - Client will use for user acceptance testing,
 
 server:
-  port: 65534
+  port: 65531
