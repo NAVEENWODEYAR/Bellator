@@ -9,7 +9,7 @@ public class BellatorApplication
 	public static void main(String[] args) 
 	{
 		SpringApplication.run(BellatorApplication.class, args);
-		System.out.println("\n Warrior");
+		System.out.println("Warrior");
 	}
 
 }
