@@ -2,3 +2,7 @@
 
 server:
   port: 65534
+
+spring:
+  main:
+    banner-mode: off
