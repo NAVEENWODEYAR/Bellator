@@ -4,10 +4,13 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BellatorApplicationTests {
+class BellatorApplicationTests 
+{
 
 	@Test
-	void contextLoads() {
+	void contextLoads() 
+	{
+		
 	}
 
 }
