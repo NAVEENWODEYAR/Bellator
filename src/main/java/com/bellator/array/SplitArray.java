@@ -15,7 +15,7 @@ public class SplitArray
 	}
 	public static void main(String[] args) 
 	{
-		System.out.println("\n Program to split the Array\n.,");
+		System.out.println("\n Program to split the Array\n,");
 		splitArray(new int[]{1,2,3,4,5,6,7,8,9});
 	}
 
