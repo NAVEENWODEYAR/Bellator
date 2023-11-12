@@ -31,11 +31,11 @@ public class ReverseString
 	public static void main(String[] args) 
 	{
 		System.out.println("\nProgram to reverse a string in Java\n");
-		System.out.println("\n1. Using charAt(),");
+		System.out.println("\n1. Using charAt(),\n");
 		reverseString("Gradle");
-		System.out.println("\n2. Using StringBuilder");
+		System.out.println("\n2. Using StringBuilder\n");
 		strReverse("String");
-		System.out.println("\n3. Using StringBuilder");
+		System.out.println("\n3. Using StringBuilder\n");
 		stringReverseJava8("Java8");
 	}
 
