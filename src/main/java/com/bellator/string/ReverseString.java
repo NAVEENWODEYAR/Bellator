@@ -18,7 +18,7 @@ public class ReverseString
 	static void strReverse(String st)
 	{
 		var sb = new StringBuilder(st);
-		System.out.println("\n Original string given:"+st+"\n Reversed string:"+sb.reverse());	
+		System.out.println("\n Original string:"+st+"\n Reversed string:"+sb.reverse());	
 	}
 	
 	// 3. Using Java8,
