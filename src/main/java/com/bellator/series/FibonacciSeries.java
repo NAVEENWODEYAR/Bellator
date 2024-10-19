@@ -1,16 +1,17 @@
 package com.bellator.series;
 
-public class FibonacciSeries 
-{
+public class FibonacciSeries {
+
+private static final Logger log = LoggerFactory.getLogger(FibonacciSeries.class);
+
 	// using for loop,
-	static void fiboNacciSeries(int n)
-	{
+	static void fiboNacciSeries(int n){
 		int a=0;
 		int b=1;
 		int c=1;
 		
-		for(int i=0; i<n; i++)
-		{
+		for(int i=0; i<n; i++){
+log.info("using for loop");
 			System.out.print(a+",");
 			a=b;
 			b=c;
@@ -19,8 +20,8 @@ public class FibonacciSeries
 	}
 	
 	// using recursion,.
-	static int fiboNacciUsingRecursion(int n)
-	{
+	static int fiboNacciUsingRecursion(int n){
+log.info("using recursion");
 		if(n<= 1)
 			return n;
 		return fiboNacciUsingRecursion(n-1)+fiboNacciUsingRecursion(n-2);
