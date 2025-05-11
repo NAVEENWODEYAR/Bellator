@@ -6,3 +6,5 @@ server:
 spring:
   main:
     banner-mode: off
+  application:
+    name: Bellator
