@@ -33,7 +33,8 @@ public class SumOfNumbers
 	public static void main(String[] args) 
 	{
 		int[] num = {1,2,3,4,5};
-//		sumOfArray(num);
+//sumOfArray(num);
+  System.out.println("Sum of n numbers");
 		sumOfElements(new Integer[] {1,2,3,4,5});
 	}
 
