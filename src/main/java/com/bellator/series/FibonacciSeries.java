@@ -11,7 +11,7 @@ private static final Logger log = LoggerFactory.getLogger(FibonacciSeries.class)
 		int c=1;
 		
 		for(int i=0; i<n; i++){
-log.info("using for loop");
+log.info("Fibonacci numbers using for loop");
 			System.out.print(a+",");
 			a=b;
 			b=c;
@@ -21,7 +21,7 @@ log.info("using for loop");
 	
 	// using recursion,.
 	static int fiboNacciUsingRecursion(int n){
-log.info("using recursion");
+log.info("Fibonacci series using recursion");
 		if(n<= 1)
 			return n;
 		return fiboNacciUsingRecursion(n-1)+fiboNacciUsingRecursion(n-2);
