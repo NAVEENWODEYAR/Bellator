@@ -20,7 +20,7 @@ public class SwappingNumbers
 	
 	public static void main(String[] args) 
 	{
-		System.out.println("\n Swapping two numbers without using third number.,\n");
+		System.out.println("\n Swapping two numbers without using third variable.,\n");
 		swap2Numbers(1, 2);
 		System.out.println("*******");
 		boolean vowelIsPresent = vowelIsPresent("vowel");
